@@ -1,0 +1,8 @@
+#!/bin/bash
+bash -c 'sleep 3 ; xrdb -load ~/.Xresources' &
+bash -c 'sleep 3 ; xset +fp ~/.fonts' &
+bash -c 'sleep 3 ; xset r rate 170 50' &
+
+google-chrome &
+slack &
+xterm &
